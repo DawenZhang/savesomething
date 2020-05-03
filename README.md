@@ -1,7 +1,7 @@
 # savesomething
 a website to backup webpages
 
-## backend APIs
+## backend
 - ```POST /save```
 save a web page from url
 
