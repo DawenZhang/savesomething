@@ -1,0 +1,15 @@
+{
+    "name": "savesomething",
+    "version": "0.0.1",
+    "description": "savesomething",
+    "dependencies": {
+        "express": "^4.17.1",
+        "jsdom": "^16.2.2",
+        "mhtml2html": "^3.0.0",
+        "puppeteer": "^3.0.1",
+        "puppeteer-autoscroll-down": "^0.1.5"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
+}

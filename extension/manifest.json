@@ -1,0 +1,21 @@
+{
+    "name": "savesomething",
+    "description": "save a webpage",
+    "version": "1",
+    "manifest_version": 1,
+    "background": {
+        "page": "savesomethingback.html"
+    },
+    "browser_action": {
+        "default_icon": "savesomething.png",
+        "default_popup": "savesomething.html"
+    },
+    "permissions": [
+        "storage",
+        "pageCapture",
+        "activeTab",
+        "downloads",
+        "notifications",
+        "<site url>"
+    ]
+}
